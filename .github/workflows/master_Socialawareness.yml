@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - Socialawareness
+name: Build and deploy Node.js app to Azure Web App - SocialAwareness
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'Socialawareness'
+        app-name: 'SocialAwareness'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f281f6093c0f49beb4418e1ca5b85eb4 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5f768e9b462844dbb0ec1ef6b436a10e }}
         package: .
