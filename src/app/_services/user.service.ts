@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const API_URL = 'http://localhost/api/auth/';
+const API_URL = 'http://acs-apis.azurewebsites.net/index.php/auth/';
 
 @Injectable({
   providedIn: 'root'
